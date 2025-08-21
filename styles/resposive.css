@@ -144,3 +144,59 @@ nav ul li a {
     border: none;
     width: 100%;
 }
+
+
+/* plants lover section styles */
+
+.badge{
+    position: absolute;
+    width: 18rem;
+    height: 18rem;
+    top: -7rem;
+    left: 22rem;
+     filter:drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.plants-lover-section {
+    max-width: 71rem;
+    height: 42rem;
+    display: flex;
+    gap: 2.8rem;
+    position: relative;
+    margin-top: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.img-box {
+    max-width: 33rem;
+    height: 100%;
+}
+
+.plant-lover-column {
+    max-width: 33rem;
+    height: 32rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.plant-lover-section-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.plants-lovers-description {
+    max-height: 32rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1.2rem;
+
+}
