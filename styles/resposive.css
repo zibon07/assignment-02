@@ -50,12 +50,12 @@ nav ul li a {
 }
 
 .nav-li {
-    font-weight: 16;
+    font-size: 16;
     color: #8987A1;
 }
 
 .cart {
-    font-size: 16;
+    font-size: 1rem;
     color: #000000;
 }
 
@@ -273,6 +273,7 @@ nav ul li a {
 .join-section {
     background-image: url(../assets/news-letter-bg.png);
     background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     height: 33rem;
     display: flex;
@@ -311,4 +312,40 @@ nav ul li a {
 .submition-box input[type="email"]::placeholder {
     font-size: 1rem;
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* footer section style */
+
+
+.footer-section {
+    max-width: 70rem;
+    margin: 3.2rem 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer-section p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-section ul li {
+    list-style: none;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #6B7280;
+}
+
+.logos {
+    max-width: 14rem;
+    height: 2rem;
+    display: flex;
+    gap: 2rem;
 }
