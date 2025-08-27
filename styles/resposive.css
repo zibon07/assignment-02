@@ -266,3 +266,49 @@ nav ul li a {
 .card-3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-zabo.png);
 }
+
+
+/* join section style */
+
+.join-section {
+    background-image: url(../assets/news-letter-bg.png);
+    background-position: center;
+    width: 100%;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.join-section-title {
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.join-section button {
+    background-color: #E95A08;
+    color: #FFFFFF;
+    padding: 1.2rem 3.3rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.submition-box {
+    display: flex;
+}
+
+.submition-box input[type="email"] {
+    width: 40rem;
+    padding: .5rem .7rem;
+    outline: none;
+
+}
+
+.submition-box input[type="email"]::placeholder {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+}
