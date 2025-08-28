@@ -116,7 +116,7 @@ nav ul li a {
 
 .img-plant {
     width: 100%;
-    height: 20rem;
+    /* height: 20rem; */
     margin-bottom: 0;
 }
 
@@ -151,7 +151,7 @@ nav ul li a {
 .badge {
     position: absolute;
     width: 18rem;
-    height: 18rem;
+    /* height: 18rem; */
     top: -7rem;
     left: 22rem;
     filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
@@ -160,14 +160,18 @@ nav ul li a {
 
 .plants-lover-section {
     max-width: 71rem;
-    height: 42rem;
+    /* height: 42rem; */
     display: flex;
-    gap: 2.8rem;
-    position: relative;
+    gap: 4rem;
+    /* position: relative; */
     margin-top: 13rem;
     margin-left: auto;
     margin-right: auto;
 
+}
+
+.image-container {
+    position: relative;
 }
 
 .img-box {
@@ -177,10 +181,11 @@ nav ul li a {
 
 .plant-lover-column {
     max-width: 33rem;
-    height: 32rem;
-    position: absolute;
-    top: 0;
-    right: 0;
+    /* height: 32rem; */
+    margin-top: 50px;
+    /* top: 0;
+    right: 0; */
+
 }
 
 
@@ -193,7 +198,7 @@ nav ul li a {
 }
 
 .plants-lovers-description {
-    max-height: 32rem;
+    /* max-height: 32rem; */
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -203,12 +208,25 @@ nav ul li a {
 
 /* latest deal section */
 
+.latest-deal-section {
+    max-width: 71rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.latest-deal-description {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
 .card-layout {
+    width: 1140px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(2, 1fr);
     gap: 1.5rem;
-    margin-top: 9rem;
+    margin-bottom: 60px;
+
 }
 
 .card {
@@ -300,10 +318,11 @@ nav ul li a {
 
 .submition-box {
     display: flex;
+    width: 70%;
 }
 
 .submition-box input[type="email"] {
-    width: 40rem;
+    width: 100%;
     padding: .5rem .7rem;
     outline: none;
 
@@ -348,4 +367,102 @@ nav ul li a {
     height: 2rem;
     display: flex;
     gap: 2rem;
+}
+
+
+
+/* responsive on mobile device */
+
+
+@media screen and (max-width:576px) {
+
+    .items li:nth-child(1),
+    nav div li:nth-child(2),
+    nav div li:nth-child(3) {
+        display: none;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+
+    .banner-column {
+        width: 361px;
+        height: 147px;
+        margin: 28px 16px;
+        padding: 0;
+    }
+
+    .banner-title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .banner-description {
+        font-size: 14px;
+    }
+
+    .plants-section-title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .plants-lovers-description {
+        width: 336px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .plants-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .plants-lover-section {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .card-layout {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card-3 {
+        height: 13rem;
+    }
+
+    .join-section{
+        background-position: cover;
+    }
+    .join-section-title{
+        font-size: 20px;
+    }
+    .submition-box button{
+        padding: 8px 20px;
+    }
+    
+    .footer-section{
+        margin: 0;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .home-links{
+        padding: 0;
+    }
+    .logos{
+        
+    }
 }
