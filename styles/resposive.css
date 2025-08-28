@@ -437,32 +437,36 @@ nav ul li a {
     .card-layout {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 361px;
     }
 
     .card-3 {
         height: 13rem;
     }
 
-    .join-section{
+    .join-section {
         background-position: cover;
     }
-    .join-section-title{
+
+    .join-section-title {
         font-size: 20px;
     }
-    .submition-box button{
+
+    .submition-box button {
         padding: 8px 20px;
     }
-    
-    .footer-section{
+
+    .footer-section {
         margin: 0;
         flex-direction: column;
         margin-top: 20px;
     }
-    .home-links{
+
+    .home-links {
         padding: 0;
     }
-    .logos{
+
+    .plant{
         
     }
 }
