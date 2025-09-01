@@ -469,6 +469,13 @@ nav ul li a {
     .card-3 {
         height: 13rem;
     }
+    .card-3 h3{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .card-3 span{
+        font-size: 16px;
+    } 
 
     .join-section {
         background-position: cover;
