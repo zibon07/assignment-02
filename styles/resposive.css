@@ -410,8 +410,12 @@ nav ul li a {
     }
 
     .banner-img {
-        width: 358px;
+        width: 100%;
         margin: o auto;
+    }
+
+    .img-box {
+        width: 358px;
     }
 
     .plants-lovers-description {
@@ -426,15 +430,18 @@ nav ul li a {
         gap: 10px;
         width: 362px;
     }
-    .plants-container div img{
+
+    .plants-container div img {
         width: 100%;
     }
-    .plant{
+
+    .plant {
         width: 171px;
     }
-    .add-to-cart{
-    padding: 19px 30px;
-    width: 171px;
+
+    .add-to-cart {
+        padding: 19px 30px;
+        width: 171px;
     }
 
     .plants-lover-section {
