@@ -414,6 +414,10 @@ nav ul li a {
         margin: o auto;
     }
 
+    .image-container {
+        margin: 0 auto;
+    }
+
     .img-box {
         width: 358px;
     }
@@ -427,6 +431,7 @@ nav ul li a {
     .plants-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
         gap: 10px;
         width: 362px;
     }
@@ -456,7 +461,9 @@ nav ul li a {
     .card-layout {
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
         width: 361px;
+        margin-bottom: 50px;
     }
 
     .card-3 {
